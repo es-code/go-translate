@@ -1,13 +1,14 @@
 # go-translate
 Localization package for GOLANG using json files.
 
-#Installation
+# Installation
 Install the package with the command
 
 `go get github.com/es-code/go-translate`
 <hr>
 
-##Usage :
+## Usage :
+
 ```
 func main() {
         //create app localization with default language
@@ -34,9 +35,10 @@ func Login(w http.ResponseWriter, r *http.Request){
 }
 
 //translate to en
-//http://localhost/login?lang=en
+http://localhost/login?lang=en
+
 //translate to ar
-//http://localhost/login?lang=ar
+http://localhost/login?lang=ar
 ```
 
 
